@@ -1,0 +1,253 @@
+.header-bg {background-image: url(../image/Rectangle\ 1.jpg);
+    width: 1440px;
+    height: 754px; 
+    display: flex;      
+}
+
+.header-flex {display: flex;
+position: fixed;
+top: 0;
+left: 0;
+}
+
+.ul-nav {display: flex; 
+justify-content: space-between;  
+width: 366px;
+height: 20px;
+margin-top: 40px;
+margin-left: 201px;
+}
+
+.a-nav {color:#000000;
+font-size:14px;
+font-family: 'Roboto', sans-serif;
+}
+
+.button-l {width: 78px;
+height: 40px;
+margin-left: 600px;
+background-color:#F84646 ;
+margin-top: 35px;
+} 
+
+.button-LP {margin-top: 10px;
+text-align: center; 
+font-size: 14px;
+font-family: 'Roboto', sans-serif;
+color: #FFFFFF;}
+
+.header-p {margin-top: 140px;
+margin-left: 122px;
+width:650px;
+height: 99px;}
+
+.h1-title {color: #000000;
+font-size: 64px;
+font-weight: 800;
+margin-top: 120px;
+font-family: 'Roboto', sans-serif}
+
+.p-header {color:#000000 ;
+line-height:36px;
+size: 20px;
+margin-top: 102px;
+font-family: 'Roboto', sans-serif;}
+
+
+
+.main-container {width: 1153px;
+display: flex;
+justify-content: space-between;
+margin-top: 99px;
+margin-left: 135px;
+}
+
+.container-textbox {width: 994px;
+margin: 0 auto;
+margin-top: 120px;
+}
+
+.container-title {color: #000000;
+text-align: center;
+font-size: 36px;
+font-weight: 800px;
+font-family: 'Roboto', sans-serif;}
+
+.container-p {font-size: 24px;
+color: #000000;
+font-weight: 400px;
+margin-top: 30px;
+text-align: center;
+line-height: 39.5px;
+font-family: 'Roboto', sans-serif;
+}
+
+.div-boxes-con {width: 1153px;
+display: flex;
+justify-content: space-between;
+margin-top: 99px;
+}
+
+.child-div {width: 284px;
+height: 180px;
+position: relative;
+
+}
+
+.logo {width: 79px;
+height: 77px;
+position: absolute;
+top:0px ;
+
+}
+
+
+.image-1 {width: 76px;
+    height: 76px; 
+    position: absolute; 
+    z-index: 2;  
+    left: 111px;
+}
+    
+
+.elipse {width:45px ;
+height: 45px;
+border-radius: 50%;
+position: absolute;
+margin-top: 0px;
+left: 145px;
+}
+
+.p-box {font-size: 18px;
+color: #000000;
+font-weight: 400px;
+font-family: 'Roboto', sans-serif;}
+
+
+
+
+.text-box {width:284px;
+height: 125px;
+position: absolute;
+margin-top: 87px;
+text-align: center;}
+
+
+
+.h2-box {font-size: 36px;
+color: #000000;
+font-weight: 800px;
+font-family: 'Roboto', sans-serif;}
+
+
+.text-wraper {width:1197px ;
+margin-top: 174px;
+margin-left: 139px;
+display: flex;
+justify-content: space-between;}
+
+
+.wraper-box {width: 523px;
+height: 480px;
+}
+
+.box-add {width:160px ;
+height: 48px;
+background-color:#F84646;
+border-radius: 8px;
+margin-top: 80px;}
+
+.add-align {
+padding-top: 15px;
+text-align: center; 
+color: #FFFFFF;
+font-size: 14px;}
+
+.image-dim1 {width: 504px;}
+
+.h2-tb2 {font-size: 76px;
+font-family: 'Roboto', sans-serif;}
+
+.p-tb2 {font-size: 16px ;
+margin-top: 116px;
+font-family: 'Roboto', sans-serif;}
+
+
+.footer-bg {background-color: #F8464A;
+}
+
+.container-bg{width: 1440px;
+height: 536px;}
+
+
+
+.container-f {width: 1034px;
+height: 304px;
+display: flex;
+justify-content: space-between;
+margin-left:104px;
+margin-top: 80px;}
+
+
+.column-1 {width: 182px;
+height: 304px;
+font-weight: 400px;
+line-height: 32px;
+margin-top: 80px;}
+
+.h2-bg {font-size:16px ;
+color: #FFFFFF;
+font-weight:700px;}
+
+.p-bg {font-size: 16px;
+color: #E6E6E6;
+font-weight: 400px;}  
+
+.copyright {width: 400px;
+height: 32px;
+margin-left: 104px;
+
+color: #FFFFFF;
+font-size: 16px;
+line-height:32px;
+}
+
+.social-box {width: 224px;
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+margin-left: 1000px;
+}
+
+.div-boxes-con-2 {width: 1153px;
+display: flex;
+justify-content: space-between;
+margin-top: 99px;}
+
+.div-boxes-con:nth-child(1) .elipse {background-color: #FF5391;}
+.div-boxes-con:nth-child(2) .elipse {background-color: #7553FF;}
+.div-boxes-con:nth-child(3) .elipse {background-color: #53C1FF;}
+.div-boxes-con-2:nth-child(1) .elipse {background-color:#53ACFF;}
+.div-boxes-con-2:nth-child(2) .elipse {background-color:#FF5353;}
+.div-boxes-con-2:nth-child(3) .elipse {background-color: #FFBA53;}
+
+@media (max-width: 1024px) {
+    .main-container {
+    flex-direction: column;
+    margin-bottom: 500px;
+align-items: center;
+}
+    }
+
+
+/* fonts */
+
+.Manrope{font-family: 'Roboto', sans-serif;}
+
+
+
+
+
+
+
+
